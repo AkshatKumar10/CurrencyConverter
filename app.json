@@ -1,0 +1,46 @@
+{
+  "expo": {
+    "name": "CurrencyCalculator",
+    "slug": "CurrencyCalculator",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/logo.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "splash": {
+        "ldpi": "./assets/images/logo.png",
+        "mdpi": "./assets/images/logo.png",
+        "hdpi": "./assets/images/logo.png",
+        "xhdpi": "./assets/images/logo.png",
+        "xxhdpi": "./assets/images/logo.png",
+        "xxxhdpi": "./assets/images/logo.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
